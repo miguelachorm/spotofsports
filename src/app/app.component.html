@@ -1,10 +1,15 @@
 <app-header></app-header>
-<div class="container">
+<div >
   <div class="row">
     <div class="col md-12">
-      <app-league-list></app-league-list>
-      <app-league-detail></app-league-detail>
-      <app-advertising></app-advertising>
+      <app-carousel></app-carousel>
+      <div class="container">
+        <div class="container row">
+          <app-league-list class="col-sm-2"></app-league-list>
+          <app-league-detail class="col-sm-8"></app-league-detail>
+          <app-advertising class="col-sm-2"></app-advertising>
+        </div>
+      </div>
     </div>
   </div>
 </div>

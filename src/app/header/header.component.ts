@@ -12,4 +12,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  
+}
+class NgIfElse {
+  show: boolean = true;
 }
