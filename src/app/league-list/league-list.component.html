@@ -1,3 +1,9 @@
-<p>
-  league-list works!
-</p>
+<md-toolbar>
+  <span>TEAMS</span>
+  <md-toolbar-row *ngFor="let team of teams">
+    <div class="row">
+      <button md-button md-raised-button>{{team.country}} <img src="assets\images\{{team.flag}}.png"></button>
+    </div>
+  </md-toolbar-row>
+</md-toolbar>
+

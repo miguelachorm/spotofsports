@@ -11,5 +11,19 @@ export class LeagueListComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
+  country: string;
+ 
+  teams = [
+    { flag: 'usa', 
+      country: 'USA' },
+    { flag: 'nic', 
+      country: 'Nicaragua' },
+    { flag: 'ven', 
+      country: 'Venezuela' },
+    { flag: 'peru', 
+      country: 'Peru' },
+    { flag: 'sal', 
+      country: 'El Salvador'}
+  ];
 }
